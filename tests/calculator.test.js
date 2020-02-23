@@ -5,6 +5,10 @@ test('The calculator adds 3 + 4 to equal 7', () => {
     expect(calc.sum(3,4)).toBe(7);
 });
 
+test('The calculator adds [2,2,2] to equal 6', () => {
+    expect(calc.sum([2,2,2])).toBe(6);
+});
+
 test('The calculator subtracts 4 - 3 to equal 1', () => {
     expect(calc.difference(4,3)).toBe(1);
 });
